@@ -100,7 +100,7 @@ const SignUp = () => {
         </form>
 
         <h3 className='text-lg font-semibold'>
-          Already have an account?{' '}
+          Already have an account?
           <Link
             className='font-bold underline'
             to={'/signin'}

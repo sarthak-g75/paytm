@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom'
 
 const Landing = () => {
   return (
-    <div className='flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-400 to-purple-500'>
+    <div
+      className='flex flex-col items-center justify-center min-h-screen'
+      style={{ background: 'linear-gradient(to right, #4F3A65, #151515)' }}
+    >
       <header className='text-center'>
         <h1 className='mb-4 text-4xl font-bold text-white'>
           Welcome to Payment Web App
